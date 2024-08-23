@@ -1,0 +1,94 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 90%;
+  background-color:white;
+}
+
+.header {
+  background: linear-gradient(135deg, #034590, #540101); /* Gradient background */
+  color: #fff; /* White text color for contrast */
+  padding: 3px 4px; /* Padding for spacing */
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow for more emphasis */
+  z-index: 1000; /* Ensure header is above other content */
+}
+
+.control-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+/* App.css */
+
+/* Overall footer styling */
+.footer-container {
+  background: linear-gradient(135deg, #034590, #540101); /* Gradient background */
+  color: #fff; /* Light text color for better contrast */
+  padding: 7px 10px; /* Padding for spacing */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #fff; /* Optional: white border for separation */
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3); /* Deeper shadow for more emphasis */
+}
+
+/* Responsive text styling */
+.footer-text {
+  font-family: 'Montserrat', sans-serif; /* Stylish Montserrat font */
+
+  font-size: 14px; /* Slightly larger font size for better readability */
+  margin: 0;
+  line-height: 1.6;
+  background: -webkit-linear-gradient(45deg, #ffffff, #ffeb3b); /* Text gradient for webkit browsers */
+  -webkit-background-clip: text; /* Clip gradient to text */
+  -webkit-text-fill-color: transparent; /* Make text fill color transparent */
+  background: linear-gradient(45deg, #ffffff, #ffeb3b); /* Gradient text color for other browsers */
+  background-clip: text; /* Clip gradient to text */
+  color: transparent; /* Make sure text color is transparent to show gradient */
+}
+
+/* Link styling (if any) */
+.footer-link {
+  color: #1e90ff; /* Bright blue for links */
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* app.css */
+
+
+
+/* data fetch css */
+
+
+/* App.css */
+.data-fetch-container {
+  padding: 20px;
+}
+
+.data-fetch-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.data-fetch-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.data-fetch-button:hover {
+  background-color: #0056b3;
+}
